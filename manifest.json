@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Global Entry Drops",
+    "description": "Find global entry interviews that meet your criteria",
+    "version": "1.0",
+    "action": {
+        "default_popup": "popup/popup.html"
+    },
+    "icons": {
+        "16": "images/translate.png",
+        "32": "images/verify_content.png",
+        "48": "images/pencil.png",
+        "128": "images/youtube.png"
+    },
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"        
+    },
+    "permissions": [
+        "storage"
+    ]
+        
+    
+
+}
