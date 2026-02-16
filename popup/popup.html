@@ -37,33 +37,40 @@
         <div class="field">
             <label for="" class="label">Location ID</label>
             <div class="select">
-                <select name="" id=""></select>
+                <select name="" id="locationId">
+                    <option value="finland">Finland</option>
+                    <option value="norway">Norway</option>
+                    <option value="switzerland">Switzerland</option>
+                    <option value="kazakhstan">Kazakhstan</option>
+                </select>
             </div>
         </div>
 
         <div class="field">
             <label for="" class="label">Start Date</label>
             <div class="control">
-                <input type="date" class="input">
+                <input type="date" class="input" id="startDate">
             </div>
         </div>
 
         <div class="field">
             <label for="" class="label">End Date</label>
             <div class="control">
-                <input type="date" class="input">
+                <input type="date" class="input" id="endDate">
             </div>
         </div>
     </div>
 
 
     <div class=" m-3">
-        <button class="button is-success is-fullwidth">Save & start</button>
+        <button class="button is-success is-fullwidth" id="startButton">Save & start</button>
     </div>
 
     <div class=" m-3">
-        <button class="button is-danger is-fullwidth">Stop</button> 
+        <button class="button is-danger is-fullwidth" id="stopButton">Stop</button> 
     </div>
     
 </body>
+
+<script src="popup.js"></script>
 </html>
