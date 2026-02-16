@@ -7,9 +7,9 @@
         "default_popup": "popup/popup.html"
     },
     "icons": {
-        "16": "images/translate.png",
-        "32": "images/verify_content.png",
-        "48": "images/pencil.png",
+        "16": "images/youtube.png",
+        "32": "images/youtube.png",
+        "48": "images/youtube.png",
         "128": "images/youtube.png"
     },
     "background": {
